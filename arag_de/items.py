@@ -9,6 +9,19 @@ import scrapy
 
 
 class AragDeItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
+    name = scrapy.Field()
+    first_name = scrapy.Field()
+    last_name = scrapy.Field()
+    street = scrapy.Field()
+    zip_city = scrapy.Field()
+    city = scrapy.Field()
+    zipcode = scrapy.Field()
+    phone = scrapy.Field()
+    fax = scrapy.Field()
+    mobile = scrapy.Field()
+    email = scrapy.Field()
+    homepage = scrapy.Field()
+    image_url = scrapy.Field()
+    job_position = scrapy.Field()
+    company = scrapy.Field()
     pass
