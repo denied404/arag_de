@@ -102,3 +102,4 @@ ENV/
 
 # Scraping results
 *.csv
+*.xlsx
